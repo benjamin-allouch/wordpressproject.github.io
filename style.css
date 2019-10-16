@@ -1,0 +1,60 @@
+/* Paragraphs were not justified and adding an !important tag was the only way to do it. */
+p {text-align: justify !important;}
+
+/* I just moved up and edited a bit the front page title */
+h2 {margin-bottom: 90px;
+ font-family: Helvetica, Arial, sans-serif;}
+.banner .banner-text .title {font-size: 2.6em;}
+.page-header {margin-bottom: -20px}
+
+/* It was the easiest way to get the right image size for "Paradise in Aspen" and "Contact us". It also resized the other images but it wasn't such a problem. */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/* I had to ask my mentor Rebeccah to do that because I was unable to edit the CSS... because my mistake was to write site.header instead of site-header.
+ I added a grey background color on the nav. */
+.site-header {background: rgba(0, 0, 0, 0.3);}
+.site-header .right .tools .form-section-holder .form-section svg {
+	fill: #4c2bb8;
+}
+
+/* Again, thanks to Rebeccah who gave me the trick to have a white color on my primary menu item */
+.site-header, .site-header .site-branding .site-title a, .main-navigation ul li a {
+	color: white;
+}
+
+/* I added a rounded border on each item menu. Not that fancy but it was to fulfill the requirements of CSS edition. */
+#menu-item-456 {
+	border: solid;
+	border-width: thin;
+	padding: 1px 4px 1px 4px;	
+	border-radius: 25px;   
+}
+#menu-item-44 {
+	border: solid;
+	border-width: thin;
+	padding: 1px 4px 1px 4px;	
+	border-radius: 25px;   
+}
+#menu-item-47 {
+	border: solid;
+	border-width: thin;
+	padding: 1px 4px 1px 4px;	
+	border-radius: 25px;  
+}
+#menu-item-46 {
+  border: solid;
+	border-width: thin;
+	padding: 1px 4px 1px 4px;	
+	border-radius: 25px;   
+}
+#menu-item-45 {
+	border: solid;
+	border-width: thin;
+	padding: 1px 4px 1px 4px;	
+	border-radius: 25px;   
+}
